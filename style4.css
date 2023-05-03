@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    outline: none;
+    text-decoration: none;
+    border: none;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 49px;
+}
+
+.logo-brand{
+    margin-left: 55px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    font-family: "poppins";
+    list-style: none;
+    gap: 35px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color:#000;
+}
+
+.nav-links li,
+.btn,
+.btn2{
+    cursor: pointer;
+}
+
+.nav-links li:hover{
+    color: #5955b3;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    font-family: "poppins" sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    padding: 14px 30px;
+    background-color: #5955b3;
+    color: #ffffff;
+    border: none;
+    border-radius: 120px;
+    line-height: 16px;
+    margin-right: 30px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.left{
+    font-family: "poppins";
+    font-style: normal;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: normal;
+    color: #3c2f60;
+    margin: 120px 0 0 90px;
+}
+
+.left span{
+    color: #5955b3;
+}
+
+.desc{
+    font-family: "poppins";
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.01rem;
+    color: #828282;
+    margin-top: 29px;
+    margin: 30px 0 0 90px;
+}
+
+.btn2{
+    margin-top: 72px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    font-family: "poppins";
+    font-style: normal;
+    font-weight: 500;
+    padding: 14px 30px;
+    background-color: #5955b3;
+    color: #ffffff;
+    border: none;
+    border-radius: 120px;
+    line-height: 16px;
+    margin: 60px 0 0 90px;
+}
+
+.img{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    float: right;
+    position: relative;
+    margin: 60px 0px 70px 0;
+}
